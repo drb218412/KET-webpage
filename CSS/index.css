@@ -1,0 +1,21 @@
+body {
+background-color: #C1CDCD;
+margin-left:20%;
+margin-right: 20%;
+border: 20px dotted black;
+padding: 10px 10px 10px 10px;
+font-family: sans-serif;
+}
+p { 
+background-color: #F0FFFF; 
+border: 1px solid black;
+color: black;
+}
+h1, h2 {
+font-family: sans-serif;
+color: #00008B;
+}
+h2 {
+border-bottom: 1px solid black;
+}
+
