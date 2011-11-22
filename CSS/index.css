@@ -24,9 +24,10 @@ margin: 20px;
 p { 
 background-color: #F0FFFF; 
 border: 1px outset black;
-color: black;
-padding: 25px;
-margin: 30px;
+ color: black;
+ padding: 25px;
+ margin: 30px;
+ font-style: italic;
 }
 em {
 font-family: serif;
