@@ -8,18 +8,20 @@ font-family: Verdana, Geneva, Arial, sans-serif;
 font-size: large;
 line-height: 1.6em;
 }
-h1, h2, h3 {
-font-size: 1.2em;
+h1 {
+font-size: 3.0em;
 font-weight: bold;
 font-family: sans-serif;
 color: red;
 }
-h1 {
-font-size: 200%;
-border-bottom: 5px solid black;
-border-bottom-color: #00008B;
-padding: 15px;
-margin: 20px;
+h2, h3 {
+font-size: 1.9em;
+font-weight: bold;
+font-family: sans-serif;
+color: red;
+}
+.link {
+color: #7CFC00;
 }
 p { 
 background-color: #6CA6CD; 
@@ -30,9 +32,10 @@ border: 5px outset white;
  font-style: italic;
 }
 #header {
-border-width: thick;
+border-width: 10px;
 border-style: ridge;
 border-color: white;
+text-align: center;
 }
 em {
 font-family: serif;
@@ -88,30 +91,6 @@ color: yellow;
 b.font3 {
 color: red;
 }
-p.trains {
-line-height: 1.9em;
-font-style: italic;
-font-family: Georgia, "Times New Roman", Time, serif;
-border-color: black;
-border-width: 5px;
-border-style: ridge, groove,dashed, dotted, inset, solid;
-border-color: white;
-background-color:  #87CEFF;
-padding: 25px;
-margin: 30px;
-}
-p.refer {
-line-height: 1.9em;
-font-style: italic;
-font-family: Georgia, "Times New Roman", Time, serif;
-border-color: black;
-border-width: 5px;
-border-style: ridge, groove,dashed, dotted, inset, solid;
-border-color: white;
-background-color: #87CEFF;
-padding: 25px;
-margin: 30px;
-}
 /* erase old marker*/
 ul#a li {
 list-style-type: none;
@@ -133,30 +112,4 @@ list-style-image: url('../trainbullet2.png');
 ul#a {
 color: #FF4500;
 }
-p.footer {
-line-height: 1.9em;
-font-style: italic;
-font-family: Georgia, "Times New Roman", Time, serif;
-border-color: black;
-border-width: 5px;
-border-style: ridge, groove,dashed, dotted, inset, solid;
-border-color: white;
-background-color: #FFB90F;
-padding: 35px;
-margin: 60px;
-}
-p.contact {
-line-height: 1.9em;
-font-style: italic;
-font-family: Georgia, "Times New Roman", Time, serif;
-border-color: black;
-border-width: 5px;
-border-style: ridge, groove,dashed, dotted, inset, solid;
-border-color: white;
-background-color: #8B1A1A;
-padding: 10px;
-margin: 1px;
-}
-p.home {
-background-color: #36648B;
-}
+
