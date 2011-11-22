@@ -16,7 +16,10 @@ color: #00008B;
 }
 h1 {
 font-size: 200%;
-border-bottom: 1px solid black;
+border-bottom: 5px solid black;
+border-bottom-color: #00008B;
+padding: 15px;
+margin: 20px;
 }
 p { 
 background-color: #F0FFFF; 
@@ -74,3 +77,4 @@ ul#a {
 list-style-image: url('../trainbullet2.png');
 color: #FF3030;
 }
+
