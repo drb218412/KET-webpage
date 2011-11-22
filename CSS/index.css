@@ -8,6 +8,8 @@ font-family: Verdana, Geneva, Arial, sans-serif;
 font-size: large;
 line-height: 1.6em;
 }
+#header {
+}
 h1, h2, h3 {
 font-size: 1.2em;
 font-weight: bold;
@@ -28,17 +30,11 @@ p {
 background-color: #6CA6CD; 
 border: 5px outset white;
  color: black;
- padding: 25px;
- margin: 30px;
+ padding: 10px;
+ margin: 1px;
  font-style: italic;
 }
-p.logo {
-border-color: black;
-border-width: 1px;
-border-style: solid;
-background-color: #a7cece;
-padding: 25px;
-margin: 30px;
+#logo {
 }
 em {
 font-family: serif;
@@ -99,8 +95,8 @@ border-width: 5px;
 border-style: ridge, groove,dashed, dotted, inset, solid;
 border-color: white;
 background-color: #FFB90F;
-padding: 25px;
-margin: 30px;
+padding: 35px;
+margin: 60px;
 }
 p.contact {
 line-height: 1.9em;
@@ -111,7 +107,9 @@ border-width: 5px;
 border-style: ridge, groove,dashed, dotted, inset, solid;
 border-color: white;
 background-color: #8B1A1A;
-padding: 25px;
-margin: 30px;
+padding: 10px;
+margin: 1px;
 }
-
+p.home {
+background-color: #36648B;
+}
