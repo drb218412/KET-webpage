@@ -2,7 +2,7 @@ body {
 background-color: #C1CDCD;
 margin-left:20%;
 margin-right: 20%;
-border: 20px dotted black;
+border: 20px solid black;
 padding: 10px 10px 10px 10px;
 font-family: Verdana, Geneva, Arial, sans-serif;
 font-size: large;
@@ -22,6 +22,8 @@ p {
 background-color: #F0FFFF; 
 border: 1px solid black;
 color: black;
+padding: 25px;
+margin: 30px;
 }
 em {
 font-family: serif;
@@ -66,4 +68,7 @@ padding-right: 12px;
 ul#a list-style-image: url('../trainbullet2.png') !important;
 ul#a {
 list-style-image: url('../trainbullet2.png');
+}
+ul#a {
+color: #FF3030;
 }
