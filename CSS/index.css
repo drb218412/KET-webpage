@@ -45,11 +45,11 @@ q {
 font-style: italic;
 }
 #pre {
-border-color: black;
+border-color: none;
 border-width: 1px;
-border-style: dashed;
-border-color: white;
-background-color: #EEDD82;
+border-style: none;
+border-color: none;
+background-color: none;
 width: 200px;
 padding-top: 1px;
 padding-right: 20px;
