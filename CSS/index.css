@@ -44,19 +44,35 @@ text-decoration: none;
 q {
 font-style: italic;
 }
-#pre {
+#logo {
+position: absolute;
+top: 10px;
+left: 1px;
+z-index: 99;
 border-color: none;
-border-width: 1px;
+border-width: none;
 border-style: none;
 border-color: none;
 background-color: none;
 width: 200px;
-padding-top: 1px;
+padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
 margin-left: 20px;
 text-align: center;
+}
+#pre {
+line-height: 1.9em;
+font-style: italic;
+font-family: Georgia, "Times New Roman", Time, serif;
+border-color: black;
+border-width: 1px;
+border-style: dashed;
+border-color: white;
+background-color: #87CEFF;
+padding: 25px;
+margin: 30px;
 }
 #main {
 line-height: 1.9em;
