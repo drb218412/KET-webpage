@@ -1,5 +1,5 @@
 body {
-background-color: #C1CDCD;
+background-color:  #1E90FF;
 margin-left:20%;
 margin-right: 20%;
 border: 20px dotted black;
@@ -12,7 +12,7 @@ h1, h2, h3 {
 font-size: 1.2em;
 font-weight: bold;
 font-family: sans-serif;
-color: #00008B;
+color: #FF3030;
 }
 h1 {
 font-size: 200%;
@@ -21,6 +21,17 @@ border-bottom-color: #00008B;
 padding: 15px;
 margin: 20px;
 }
+.link {
+color: #7CFC00;
+}
+p { 
+background-color:  #104E8B; 
+border: 5px outset white;
+ color: black;
+ padding: 25px;
+ margin: 30px;
+ font-style: italic;
+}
 p.logo {
 border-color: black;
 border-width: 1px;
@@ -28,14 +39,6 @@ border-style: solid;
 background-color: #a7cece;
 padding: 25px;
 margin: 30px;
-}
-p { 
-background-color: #F0FFFF; 
-border: 1px outset black;
- color: black;
- padding: 25px;
- margin: 30px;
- font-style: italic;
 }
 em {
 font-family: serif;
@@ -49,10 +52,10 @@ line-height: 1.9em;
 font-style: italic;
 font-family: Georgia, "Times New Roman", Time, serif;
 border-color: black;
-border-width: 1px;
+border-width: 5px;
 border-style: ridge, groove,dashed, dotted, inset, solid;
 border-color: white;
-background-color: #a7cece;
+background-color: #F0FFFF;
 padding: 25px;
 margin: 30px;
 }
@@ -61,10 +64,10 @@ line-height: 1.9em;
 font-style: italic;
 font-family: Georgia, "Times New Roman", Time, serif;
 border-color: black;
-border-width: 1px;
+border-width: 5px;
 border-style: ridge, groove,dashed, dotted, inset, solid;
 border-color: white;
-background-color: #a7cece;
+background-color: #87CEFF;
 padding: 25px;
 margin: 30px;
 }
@@ -87,8 +90,28 @@ ul#a {
 list-style-image: url('../trainbullet2.png');
 color: #FF3030;
 }
+p.footer {
+line-height: 1.9em;
+font-style: italic;
+font-family: Georgia, "Times New Roman", Time, serif;
+border-color: black;
+border-width: 5px;
+border-style: ridge, groove,dashed, dotted, inset, solid;
+border-color: white;
+background-color: #FFB90F;
+padding: 25px;
+margin: 30px;
+}
 p.contact {
-color: black;
+line-height: 1.9em;
+font-style: italic;
+font-family: Georgia, "Times New Roman", Time, serif;
+border-color: black;
+border-width: 5px;
+border-style: ridge, groove,dashed, dotted, inset, solid;
+border-color: white;
 background-color: #8B1A1A;
+padding: 25px;
+margin: 30px;
 }
 
