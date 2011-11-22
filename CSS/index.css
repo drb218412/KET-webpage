@@ -8,7 +8,7 @@ font-family: Verdana, Geneva, Arial, sans-serif;
 font-size: large;
 line-height: 1.6em;
 }
-h1, h2 {
+h1, h2, h3 {
 font-size: 1.2em;
 font-weight: bold;
 font-family: sans-serif;
@@ -48,4 +48,22 @@ border-style: solid;
 background-color: #a7cece;
 padding: 25px;
 margin: 30px;
+}
+/* erase old marker*/
+ul#a li {
+list-style-type: none;
+}
+/* create new marker */
+ul#a li:before {
+display: marker;
+content: url("../trainbullet2.png");
+/* set the following to fit your needs */
+vertical-align: 3px;
+padding-left: 2px;
+padding-right: 12px;
+
+}
+ul#a list-style-image: url('../trainbullet2.png') !important;
+ul#a {
+list-style-image: url('../trainbullet2.png');
 }
