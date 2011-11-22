@@ -15,6 +15,7 @@ font-family: sans-serif;
 color: red;
 }
 h2, h3 {
+text-align: center;
 font-size: 1.9em;
 font-weight: bold;
 font-family: sans-serif;
@@ -49,11 +50,6 @@ position: absolute;
 top: 10px;
 left: 1px;
 z-index: 99;
-border-color: none;
-border-width: none;
-border-style: none;
-border-color: none;
-background-color: none;
 width: 200px;
 padding-top: 20px;
 padding-right: 20px;
@@ -62,7 +58,34 @@ padding-left: 20px;
 margin-left: 20px;
 text-align: center;
 }
+#fire {
+position: absolute;
+top: 10px;
+left: 1400px;
+z-index: 99;
+width: 200px;
+padding-top: 30px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+margin-left: 20px;
+text-align: center;
+}
+#adv {
+position: absolute:
+top: 30px
+left: 1300px;
+z-index: 99;
+width: 200px;
+padding-top: 30px;
+padding-right: 500px;
+padding-bottom: 500px
+padding-left: 500px;
+margin-left: 500px;
+text-align: center;
+}
 #pre {
+text-align: center;
 line-height: 1.9em;
 font-style: italic;
 font-family: Georgia, "Times New Roman", Time, serif;
