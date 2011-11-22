@@ -1,5 +1,5 @@
 body {
-background-color:  #1E90FF;
+background-color:  #7EC0EE;
 margin-left:20%;
 margin-right: 20%;
 border: 20px dotted black;
@@ -25,7 +25,7 @@ margin: 20px;
 color: #7CFC00;
 }
 p { 
-background-color:  #104E8B; 
+background-color: #6CA6CD; 
 border: 5px outset white;
  color: black;
  padding: 25px;
@@ -55,7 +55,7 @@ border-color: black;
 border-width: 5px;
 border-style: ridge, groove,dashed, dotted, inset, solid;
 border-color: white;
-background-color: #F0FFFF;
+background-color:  #87CEFF;
 padding: 25px;
 margin: 30px;
 }
