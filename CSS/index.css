@@ -2,7 +2,7 @@ body {
 background-color: #C1CDCD;
 margin-left:20%;
 margin-right: 20%;
-border: 20px solid black;
+border: 20px dotted black;
 padding: 10px 10px 10px 10px;
 font-family: Verdana, Geneva, Arial, sans-serif;
 font-size: large;
@@ -20,7 +20,7 @@ border-bottom: 1px solid black;
 }
 p { 
 background-color: #F0FFFF; 
-border: 1px solid black;
+border: 1px outset black;
 color: black;
 padding: 25px;
 margin: 30px;
@@ -36,9 +36,13 @@ q {
 font-style: italic;
 }
 p.trains {
+line-height: 1.9em;
+font-style: italic;
+font-family: Georgia, "Times New Roman", Time, serif;
 border-color: black;
 border-width: 1px;
-border-style: dotted;
+border-style: ridge, groove,dashed, dotted, inset, solid;
+border-color: white;
 background-color: #a7cece;
 padding: 25px;
 margin: 30px;
@@ -68,7 +72,5 @@ padding-right: 12px;
 ul#a list-style-image: url('../trainbullet2.png') !important;
 ul#a {
 list-style-image: url('../trainbullet2.png');
-}
-ul#a {
 color: #FF3030;
 }
