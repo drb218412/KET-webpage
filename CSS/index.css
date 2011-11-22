@@ -8,13 +8,11 @@ font-family: Verdana, Geneva, Arial, sans-serif;
 font-size: large;
 line-height: 1.6em;
 }
-#header {
-}
 h1, h2, h3 {
 font-size: 1.2em;
 font-weight: bold;
 font-family: sans-serif;
-color: #FF3030;
+color: red;
 }
 h1 {
 font-size: 200%;
@@ -34,7 +32,10 @@ border: 5px outset white;
  margin: 1px;
  font-style: italic;
 }
-#logo {
+#header {
+border-width: thick;
+border-style: ridge;
+border-color: white;
 }
 em {
 font-family: serif;
@@ -42,6 +43,53 @@ text-decoration: none;
 }
 q {
 font-style: italic;
+}
+#pre {
+border-color: black;
+border-width: 1px;
+border-style: dashed;
+border-color: white;
+background-color: #EEDD82;
+width: 200px;
+padding-top: 1px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+margin-left: 20px;
+text-align: center;
+}
+#main {
+line-height: 1.9em;
+font-style: italic;
+font-family: Georgia, "Times New Roman", Time, serif;
+border-color: black;
+border-width: 1px;
+border-style: dashed;
+border-color: white;
+background-color: #87CEFF;
+padding: 25px;
+margin: 30px;
+}
+#footer {
+line-height: 1.9em;
+font-style: italic;
+font-family: Georgia, "Times New Roman", Time, serif;
+border-color: black;
+border-width: 1px;
+border-style: dashed;
+border-color: white;
+background-color: #EEDD82;
+padding: 25px;
+margin: 30px;
+}
+b.font1 {
+color: blue;
+}
+b.font2 {
+color: yellow;
+}
+b.font3 {
+color: red;
 }
 p.trains {
 line-height: 1.9em;
@@ -84,7 +132,9 @@ padding-right: 12px;
 ul#a list-style-image: url('../trainbullet2.png') !important;
 ul#a {
 list-style-image: url('../trainbullet2.png');
-color: #FF3030;
+}
+ul#a {
+color: #FF4500;
 }
 p.footer {
 line-height: 1.9em;
