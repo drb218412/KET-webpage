@@ -1,131 +1,120 @@
 body {
-background-color:  #7EC0EE;
-margin-left:20%;
-margin-right: 20%;
-border: 20px dotted black;
-padding: 10px 10px 10px 10px;
-font-family: Verdana, Geneva, Arial, sans-serif;
-font-size: large;
-line-height: 1.6em;
+    background-color: #7EC0EE;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 20px dotted black;
+    padding: 10px 10px 10px 10px;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: large;
+    line-height: 1.6em;
 }
-h1 {
-font-size: 3.0em;
-font-weight: bold;
-font-family: sans-serif;
-color: red;
-}
-h2, h3 {
-font-size: 1.9em;
-font-weight: bold;
-font-family: sans-serif;
-color: red;
-}
-.link {
-color: #7CFC00;
-}
-p { 
-background-color: #6CA6CD; 
-border: 5px outset white;
- color: black;
- padding: 10px;
- margin: 1px;
- font-style: italic;
-}
-#header {
-border-width: 10px;
-border-style: ridge;
-border-color: white;
-text-align: center;
-}
-em {
-font-family: serif;
-text-decoration: none;
-}
-q {
-font-style: italic;
-}
-#logo {
-position: absolute;
-top: 10px;
-left: 1px;
-z-index: 99;
-border-color: none;
-border-width: none;
-border-style: none;
-border-color: none;
-background-color: none;
-width: 200px;
-padding-top: 20px;
-padding-right: 20px;
-padding-bottom: 20px;
-padding-left: 20px;
-margin-left: 20px;
-text-align: center;
-}
-#pre {
-line-height: 1.9em;
-font-style: italic;
-font-family: Georgia, "Times New Roman", Time, serif;
-border-color: black;
-border-width: 1px;
-border-style: dashed;
-border-color: white;
-background-color: #87CEFF;
-padding: 25px;
-margin: 30px;
-}
-#main {
-line-height: 1.9em;
-font-style: italic;
-font-family: Georgia, "Times New Roman", Time, serif;
-border-color: black;
-border-width: 1px;
-border-style: dashed;
-border-color: white;
-background-color: #87CEFF;
-padding: 25px;
-margin: 30px;
-}
-#footer {
-line-height: 1.9em;
-font-style: italic;
-font-family: Georgia, "Times New Roman", Time, serif;
-border-color: black;
-border-width: 1px;
-border-style: dashed;
-border-color: white;
-background-color: #EEDD82;
-padding: 25px;
-margin: 30px;
-}
-b.font1 {
-color: blue;
-}
-b.font2 {
-color: yellow;
-}
-b.font3 {
-color: red;
-}
-/* erase old marker*/
-ul#a li {
-list-style-type: none;
-}
-/* create new marker */
-ul#a li:before {
-display: marker;
-content: url("../trainbullet2.png");
-/* set the following to fit your needs */
-vertical-align: 3px;
-padding-left: 2px;
-padding-right: 12px;
 
+h1 {
+    font-size: 3.0em;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: red;
 }
-ul#a list-style-image: url('../trainbullet2.png') !important;
-ul#a {
-list-style-image: url('../trainbullet2.png');
+
+h2, h3 {
+    font-size: 1.9em;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: red;
 }
-ul#a {
-color: #FF4500;
+
+.link {
+    color: #7CFC00;
 }
+
+p {
+    background-color: #6CA6CD;
+    border: 5px outset white;
+    color: black;
+    padding: 10px;
+    margin: 1px;
+    font-style: italic;
+}
+
+#header {
+    border-width: 10px;
+    border-style: ridge;
+    border-color: white;
+    text-align: center;
+}
+
+em {
+    font-family: serif;
+    text-decoration: none;
+}
+
+q {
+    font-style: italic;
+}
+
+#train {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    z-index: 99;
+    width: 200px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#pre {
+    line-height: 1.9em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Time, serif;
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: #87CEFF;
+    padding: 25px;
+    margin: 30px;
+}
+
+#main {
+    line-height: 1.9em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Time, serif;
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: #87CEFF;
+    padding: 25px;
+    margin: 30px;
+}
+
+#footer {
+    line-height: 1.9em;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Time, serif;
+    border-color: black;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: #EEDD82;
+    padding: 25px;
+    margin: 30px;
+}
+
+b.font1 {
+    color: blue;
+}
+
+b.font2 {
+    color: yellow;
+}
+
+b.font3 {
+    color: red;
+}
+
 
